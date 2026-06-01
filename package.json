@@ -1,5 +1,5 @@
 {
-  "name": "ctx-cli",
+  "name": "ctx-for-ai",
   "version": "0.1.0",
   "description": "Terminal context manager for AI coding agents. Generates .ctx.md files that agents read as system context.",
   "main": "dist/index.js",
@@ -14,7 +14,17 @@
     "test:coverage": "vitest run --coverage",
     "lint": "eslint src/ --ext .ts"
   },
-  "keywords": ["ai", "context", "cli", "coding-agent", "mcp", "claude", "codex", "gemini"],
+  "keywords": [
+    "ai",
+    "context",
+    "cli",
+    "llm",
+    "gpt",
+    "claude",
+    "cursor",
+    "token",
+    "codebase"
+  ],
   "author": "smarthomeo",
   "license": "MIT",
   "engines": {
@@ -34,5 +44,12 @@
     "chalk": "^5.3.0",
     "fast-glob": "^3.3.0",
     "ignore": "^5.3.0"
+  },
+  "repository": {
+    "url": "https://github.com/smarthomeo/ctx"
+  },
+  "homepage": "https://github.com/smarthomeo/ctx#readme",
+  "bugs": {
+    "url": "https://github.com/smarthomeo/ctx/issues"
   }
 }
