@@ -4,6 +4,8 @@
 
 `ctx` generates a `.ctx.md` file that summarizes your project — tech stack, structure, environment, conventions, architecture. AI agents (Claude Code, Codex, Gemini CLI, Cursor) read it as their first action, skipping expensive project rediscovery.
 
+![ctx demo](demo.gif)
+
 ## Why
 
 Every time an AI coding agent starts a session, it burns tokens rediscovering your project. `ctx init` gives it everything it needs in one file.
