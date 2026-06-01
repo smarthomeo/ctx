@@ -1,6 +1,6 @@
 {
   "name": "ctx-for-ai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Terminal context manager for AI coding agents. Generates .ctx.md files that agents read as system context.",
   "main": "dist/index.js",
   "bin": {
